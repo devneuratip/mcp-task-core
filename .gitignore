@@ -1,0 +1,50 @@
+﻿# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+build/
+dist/
+lib/
+coverage/
+
+# Environment and config files
+.env
+.env.*
+config.js
+api-config.js
+*config*.js
+!config.example.js
+
+# Credentials and tokens
+*credentials*
+.git-credentials
+*.key
+*.pem
+*.cert
+*.token
+push_repo.ps1
+force_push.ps1
+final-push.ps1
+retry_push.ps1
+GIT_*.md
+MANUAL_*.md
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Temp files
+temp/
+tmp/
+*.tmp
+nul
